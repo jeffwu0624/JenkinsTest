@@ -12,7 +12,7 @@ namespace JenkinsTest.UnitTest
         [Test]
         public void Add_positive_integer()
         {
-            SumShouldBe(1, 4, 3);
+            SumShouldBe(1, 2, 3);
         }
 
         private void SumShouldBe(int a, int b, int expected)
